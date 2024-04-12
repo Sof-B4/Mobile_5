@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".Fragment2"
+    >
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Write some message:"
+        android:textStyle="bold"
+        android:textColor="@color/firstColor"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/section"
+        android:layout_width="259dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+
+        android:hint="Your message"/>
+
+    <TextView
+        android:id="@+id/text_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Here will be your name"
+        android:textStyle="italic"
+        android:textColor="@color/secondColor"
+        android:textColorHint="#3965CD"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/button_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Go to Fragment №3"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/firstColor" />
+    <!--        android:onClick="onButtonClick2"-->
+
+
+    <Button
+        android:id="@+id/button_end2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Go back"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/secondColor"
+        android:onClick="onButtonClick_end2"
+        />
+
+    <ImageView
+        android:id="@+id/image_cup"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/meditation3_41325"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
+
